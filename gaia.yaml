@@ -1,0 +1,10 @@
+sources:
+  gaia_dr2:
+    description: |
+      The Gaia Data Release 2 of astronomical point sources. Original data:
+      https://www.cosmos.esa.int/web/gaia/dr2
+      This dataset is 500GB in total in 1750 datafiles, and 94 columns.
+    driver: parquet
+    args:
+      urlpath: "gcs://pangeo-data/gaia_dr2.parquet"
+      storage_options:

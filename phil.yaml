@@ -1,0 +1,307 @@
+sources:
+  311_service_and_information_requests:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: https://phl.carto.com/api/v2/sql?q=SELECT+*+FROM+public_cases_fc&filename=public_cases_fc&format=csv&skipfields=cartodb_id
+    cache:
+    - argkey: https://phl.carto.com/api/v2/sql?q=SELECT+*+FROM+public_cases_fc&filename=public_cases_fc&format=csv&skipfields=cartodb_id
+      regex: https://phl.carto.com/api/v2/sql?q=SELECT+*+FROM+public_cases_fc&filename=public_cases_fc&format=csv&skipfields=cartodb_id
+      type: file
+    description: "311 Service and Information Requests\nThis represents all service\
+      \ and information requests since December 8th, 2014 submitted to Philly311 via\
+      \ the 311 mobile application, calls, walk-ins, emails, the 311 website or social\
+      \ media. \r\n\r\nTrouble downloading or have questions about this City dataset?\
+      \ Visit the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups: []
+      license: Other (City of Philadelphia)
+      metadata_modified: '2018-09-05T17:59:41.163645'
+      tags: []
+  active_residential_parking_permits_by_district:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+active_residential_parking_permits_by_district&filename=active_residential_parking_permits_by_district&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator
+    cache:
+    - argkey: https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+active_residential_parking_permits_by_district&filename=active_residential_parking_permits_by_district&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator
+      regex: https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+active_residential_parking_permits_by_district&filename=active_residential_parking_permits_by_district&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator
+      type: file
+    description: 'Active Residential Parking Permits by District
+
+      Trouble downloading or have questions about this City dataset? Visit the [OpenDataPhilly
+      Discussion Group](http://www.phila.gov/data/discuss/)'
+    driver: csv
+    metadata:
+      groups:
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-04-11T15:21:15.755876'
+      tags:
+      - Philadelphia Parking Authority
+  air_monitoring_stations:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.csv
+      type: file
+    description: "Air Monitoring Stations\nStreet location and types of pollutants\
+      \ sampled at each PDPH air monitoring station.\r\n\r\nTrouble downloading or\
+      \ have questions about this City dataset? Visit the [OpenDataPhilly Discussion\
+      \ Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - health-human-services-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2016-11-28T06:54:02.910081'
+      tags:
+      - Public Health
+  air_quality_index_days:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+air_quality_index_days&filename=air_quality_index_days&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator
+    cache:
+    - argkey: https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+air_quality_index_days&filename=air_quality_index_days&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator
+      regex: https://data.phila.gov/carto/api/v2/sql?q=SELECT+*+FROM+air_quality_index_days&filename=air_quality_index_days&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator
+      type: file
+    description: "Air Quality Index Days\nNumber of bad AQI (air quality index) days,\
+      \ dating back to 1990.\r\n\r\nTrouble downloading or have questions about this\
+      \ City dataset? Visit the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - environment-group
+      - health-human-services-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-04-11T15:47:26.857889'
+      tags:
+      - Office of Sustainability
+  airport_airside_pavement:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/44a1035a6ddc49b1a4c49a389abf21ac_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/44a1035a6ddc49b1a4c49a389abf21ac_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/44a1035a6ddc49b1a4c49a389abf21ac_0.csv
+      type: file
+    description: "Airport Airside Pavement\nThis data has been developed to manage\
+      \ PHL's flight information display systems in an interactive/ geographically\
+      \ illustrated format. This file reflects the current paved Airport Operations\
+      \ Area (AOA) configuration.\r\n\r\nTrouble downloading or have questions about\
+      \ this City dataset? Visit the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-10-12T15:44:27.741067'
+      tags:
+      - Philadelphia Airport
+  airport_buildings:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/1531a6999c0f40d3b1a6764a0a54f32b_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/1531a6999c0f40d3b1a6764a0a54f32b_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/1531a6999c0f40d3b1a6764a0a54f32b_0.csv
+      type: file
+    description: "Airport Terminal Buildings\nThis data has been developed to display\
+      \ terminal buildings at the Philadelphia International Airport.\r\n\r\nTrouble\
+      \ downloading or have questions about this City dataset? Visit the [OpenDataPhilly\
+      \ Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-10-12T15:43:41.005253'
+      tags:
+      - Philadelphia Airport
+  airport_parking_locations:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/656d0ed09d104fdbabd53a8970fb2cb9_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/656d0ed09d104fdbabd53a8970fb2cb9_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/656d0ed09d104fdbabd53a8970fb2cb9_0.csv
+      type: file
+    description: "Airport Public Parking Entry and Exit Locations\nThis data has been\
+      \ developed to manage PHL's parking entrances and exits in an interactive/ geographically\
+      \ illustrated format.\r\n\r\nTrouble downloading or have questions about this\
+      \ City dataset? Visit the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-10-12T15:43:10.457285'
+      tags:
+      - Philadelphia Airport
+  airport_public_parking_lots:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/d6b74cabf95d4013b80d88c46ac1d685_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/d6b74cabf95d4013b80d88c46ac1d685_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/d6b74cabf95d4013b80d88c46ac1d685_0.csv
+      type: file
+    description: "Airport Public Parking Lots\nThis data has been developed to manage\
+      \ PHL's public parking lots in an interactive/ geographically illustrated format.\r\
+      \n\r\nTrouble downloading or have questions about this City dataset? Visit the\
+      \ [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-10-12T15:42:53.779471'
+      tags:
+      - Philadelphia Airport
+  airport_rental_car_locations:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/daa92078aab14714babef978d2f1b3bb_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/daa92078aab14714babef978d2f1b3bb_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/daa92078aab14714babef978d2f1b3bb_0.csv
+      type: file
+    description: "Airport Rental Car Locations\nThis data has been developed to manage\
+      \ PHL's rental car locations by name in an interactive/ geographically illustrated\
+      \ format.\r\n\r\nTrouble downloading or have questions about this City dataset?\
+      \ Visit the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups: []
+      license: Other (City of Philadelphia)
+      metadata_modified: '2016-11-28T05:56:19.476971'
+      tags:
+      - Philadelphia International Airport
+  airport_rental_car_lots:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/b82bd965cd6341a9ad006851f588cfa6_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/b82bd965cd6341a9ad006851f588cfa6_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/b82bd965cd6341a9ad006851f588cfa6_0.csv
+      type: file
+    description: "Airport Rental Car Lots\nThis data has been developed to manage\
+      \ PHL's rental car lots by name in an interactive/ geographically illustrated\
+      \ format.\r\n\r\nTrouble downloading or have questions about this City dataset?\
+      \ Visit the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-10-12T15:43:54.737218'
+      tags:
+      - Philadelphia Airport
+  airport_roadway_zones:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/db55471a272b4ecbb6e7ab7cf70363f9_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/db55471a272b4ecbb6e7ab7cf70363f9_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/db55471a272b4ecbb6e7ab7cf70363f9_0.csv
+      type: file
+    description: "Airport Roadway Zones\nThis data has been developed to manage PHL's\
+      \ transit stops and vehicle zones in an interactive/ geographically illustrated\
+      \ format.\r\n\r\nTrouble downloading or have questions about this City dataset?\
+      \ Visit the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-10-12T15:42:43.577274'
+      tags:
+      - Philadelphia Airport
+  airport_runways:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/d7f2f088b0bd454294b0c05cff13844f_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/d7f2f088b0bd454294b0c05cff13844f_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/d7f2f088b0bd454294b0c05cff13844f_0.csv
+      type: file
+    description: "Airport Runways\nThis data has been developed to manage PHL's runaways\
+      \ and their assets in an interactive/ geographically illustrated format.\r\n\
+      \r\nTrouble downloading or have questions about this City dataset? Visit the\
+      \ [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - real-estate-land-records-group
+      - transportation-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2017-10-12T15:44:14.817054'
+      tags:
+      - Philadelphia Airport
+  archived_2015_litter_index:
+    args:
+      csv_kwargs:
+        blocksize: null
+      storage_options:
+        block_size: 0
+      urlpath: http://data.phl.opendata.arcgis.com/datasets/4bb9bed7707b4704833b293ddb13f7b1_0.csv
+    cache:
+    - argkey: http://data.phl.opendata.arcgis.com/datasets/4bb9bed7707b4704833b293ddb13f7b1_0.csv
+      regex: http://data.phl.opendata.arcgis.com/datasets/4bb9bed7707b4704833b293ddb13f7b1_0.csv
+      type: file
+    description: "ARCHIVED: 2007-2015 Litter Index\nThe datasets below have been archived\
+      \ and will not receive further updates, but remain available for reference.\
+      \  The up-to-date and more comprehensive [Litter Index is available here](https://www.opendataphilly.org/dataset/litter-index)\
+      \ and will be updated annually going forward. For those conducting analysis\
+      \ using Litter Index data, please be advised that the survey design between\
+      \ the 2007- 2015 data is vastly different from the 2017 data, so it would not\
+      \ make sense to compare the two. \r\n\r\nThe Litter Index is used to compare\
+      \ the relative cleanliness of different areas of the city of Philadelphia. \
+      \ \r\n\r\nTrouble downloading or have questions about this City dataset? Visit\
+      \ the [OpenDataPhilly Discussion Group](http://www.phila.gov/data/discuss/)"
+    driver: csv
+    metadata:
+      groups:
+      - environment-group
+      - health-human-services-group
+      license: Other (City of Philadelphia)
+      metadata_modified: '2018-02-27T14:08:47.117122'
+      tags:
+      - Streets Department
