@@ -8,3 +8,4 @@ sources:
     args:
       urlpath: "gcs://pangeo-data/gaia_dr2.parquet"
       storage_options:
+        token: anon
