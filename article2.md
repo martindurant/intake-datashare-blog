@@ -1,7 +1,7 @@
 # Scientific data dissemination with Intake
 
 He we discuss dissemination of data: the transformation of a high-profile data-set into
-a form aproriate for big-data analysis.
+a form appropriate for big-data analysis.
 
 The Gaia project released [Data Release 2](https://www.cosmos.esa.int/web/gaia/dr2) (DR2)
 of 1.7 billion point source astronomical objects earlier this year. As a publicly funded
@@ -25,7 +25,7 @@ compression, such as gzip in this case, which comes at the cost of CPU cycles af
 bytes into memory, and the inability to access just a piece of some file. 
 
 From a big-data processing point of view, the
-very large number of small files is not, since there is an overhead associated with starting
+very large number of small files is not great, since there is an overhead associated with starting
 HTTP connections. Furthermore, CSV files do not allow for efficiently accessing just a limited number of
 columns in the data - you have to scroll through every line of the file, even if you only parse
 some of the columns of each. Finally, plain HTTP is not a great protocol for accessing files,
