@@ -6,7 +6,7 @@ Intake and how to use it, please refer to the [documentation](https://intake.rea
 
 Until recently, Intake was only available for installation via Conda and the `intake` channel
 on `anaconda.org`. This reflected the rapid development and short release cycle of the project.
-[Conda-Forge](https://github.com/conda-forge/) is an effort to provide an automated path for
+[Conda-Forge](https://conda-forge.org/) is an effort to provide an automated path for
 releasing open-source project to the public, in the context of the Conda package manager ecosystem.
 From now on, Intake is available on Conda-Forge, and the recommended installation command is:
 
@@ -26,7 +26,7 @@ pip install intake
 ```
 
 The above line is generally believed to work well, but this method of installation is not yet [as well
-tested](...) as the Conda path.
+tested](https://github.com/ContinuumIO/intake/pull/252) as the Conda path.
 
 Furthermore, we have explicitly added tests for Intake running under Windows. After fixing a number
 of path-syntax-related bugs, we are confident that Intake should now work well for all Windows
@@ -54,12 +54,18 @@ will work, and also will likely happen much faster for not having to download th
 Conda-Forge channel. The process of preparing packages for defaults is somewhat more involved, since
 it requires that dependencies are also on defaults (otherwise there would be no point!).
 
+To install from defaults:
+
+```bash
+conda install intake
+```
+
 ### Status of drivers
 
 Currently (early February, 2019), the following packages have been released on Conda-Forge:
 
 - intake
-- intake-ES
+- intake-ES [PR](https://github.com/conda-forge/staged-recipes/pull/7676)
 -  intake-accumulo
 -  intake-astro
 -  intake-avro
@@ -71,4 +77,3 @@ Currently (early February, 2019), the following packages have been released on C
 and the following on defaults:
 
 - intake
-- intake-xarray

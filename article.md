@@ -125,8 +125,10 @@ handy visualisation and query interfaces.
 Unfortunately, API query access requires registration and an API key (as well as a custom
 query system). The full data is available as a CSV, but it's link is not readily discoverable
 without clicking within the page, and the single [file](https://data.cityofchicago.org/api/views/ijzp-q8t2/rows.csv?accessType=DOWNLOAD),
-which does not publish its size, turns out to be 1.5GB. Nevertheless, this could be made into
-an Intake catalog entry, with appropriate warnings over the file-sise, and probably local
+turns out to be 1.5GB. That the server does not declate the file-size or allow bytes-range
+requests is important, because it means that random access to load just some particular
+chunk of the data is not possible. Nevertheless, this could be made into
+an Intake catalog entry, with appropriate warnings over the file-size, and probably local
 caching.
 
 Turning to another municipality, Philadelphia does publish the API by which details of
