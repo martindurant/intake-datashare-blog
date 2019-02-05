@@ -2,12 +2,12 @@
 
 Intake is a package for cataloging, finding and loading your data. It has been developed recently by
 Anaconda, Inc., and continues to gain new features. To read  general information about
-Intake and how to use it, please refer to the [documentation](https://intake.readthedocs.io/en/latest/)
+Intake and how to use it, please refer to the [documentation](https://intake.readthedocs.io/en/latest/).
 
 Until recently, Intake was only available for installation via Conda and the `intake` channel
 on `anaconda.org`. This reflected the rapid development and short release cycle of the project.
 [Conda-Forge](https://conda-forge.org/) is an effort to provide an automated path for
-releasing open-source project to the public, in the context of the Conda package manager ecosystem.
+releasing open-source projects to the public, in the context of the Conda package manager ecosystem.
 From now on, Intake is available on Conda-Forge, and the recommended installation command is:
 
 ```bash
@@ -32,7 +32,7 @@ Furthermore, we have explicitly added tests for Intake running under Windows. Af
 of path-syntax-related bugs, we are confident that Intake should now work well for all Windows
 users.
 
-### python 2 support?
+### Python 2 support?
 
 Intake does not currently run under Python 2, and this has been a design choice in order to be able
 to develop more quickly. As much of the python stack (numpy, pandas, etc.) is dropping Python 2 support,
@@ -77,3 +77,6 @@ Currently (early February, 2019), the following packages have been released on C
 and the following on defaults:
 
 - intake
+
+Please see the Intake [project dashboard](https://continuumio.github.io/intake-dashboard/status.html)
+for details of releases of each package.
