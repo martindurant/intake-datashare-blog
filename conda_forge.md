@@ -66,7 +66,7 @@ conda install intake
 Currently (early February, 2019), the following packages have been released on Conda-Forge:
 
 - intake
-- intake-elasticsearch ([PR](https://github.com/conda-forge/staged-recipes/pull/7676))
+- intake-elasticsearch
 -  intake-accumulo
 -  intake-astro
 -  intake-avro
