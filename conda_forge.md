@@ -52,7 +52,8 @@ one that is automatically available to any Ana/Conda install). This is a seal of
 is much appreciated, and has the practical upshot that the following simpler installation command
 will work, and also will likely happen much faster for not having to download the metadata of the 
 Conda-Forge channel. The process of preparing packages for defaults is somewhat more involved, since
-it requires that dependencies are also on defaults (otherwise there would be no point!).
+it requires that dependencies are also on defaults (otherwise there would be no point!), and so the versions
+of packages there are not necessarily as recent as on conda-forge.
 
 To install from defaults:
 
@@ -77,6 +78,7 @@ Currently (early February, 2019), the following packages have been released on C
 and the following on defaults:
 
 - intake
+- intake-xarray
 
 Please see the Intake [project dashboard](https://continuumio.github.io/intake-dashboard/status.html)
 for details of releases of each package.
